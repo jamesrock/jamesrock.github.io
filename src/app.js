@@ -6,7 +6,7 @@ const sections = [
   ['p', "My name is James, and I write games."],
   ['p', "Huge fan of JavaScript, less so TypeScript. I started out as a Flash developer back in the day, before moving into web."],
   ['p', "I wrote a JavaScript inheritence mechanism long before class definitions became a thing. I'll forever be a fan of jQuery, although I know things have moved on a lot since those days!"],
-  ['p', "I particularly enjoy writing JS-based games — some of which you'll find over on my GitHub page (link below)."],
+  ['p', "Why not take a gander at some of my JS-based games over on my GitHub page (link below)."],
   ['p.italic', "This entire page is built in JavaScript, which I know isn\'t great for SEO, but who cares."],
   ['a', "Visit my GitHub page.", "https://github.com/jamesrock"],
 ];
