@@ -3,7 +3,44 @@
   margin: 0;
 }
 
+:root {
+  --background: floralwhite;
+  --foreground: rgb(17,17,17);
+}
+
+html {
+  height: 100vh;
+}
+
 body {
   font-family: sans-serif;
-  background-color: red;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-size: 15pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+a {
+  color: blue;
+  &:hover {
+    text-decoration: none;
+  }
 }
