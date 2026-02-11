@@ -1,0 +1,26 @@
+{
+  "name": "jamesrock.github.io",
+  "version": "1.0.0",
+  "description": "unsure just yet!",
+  "homepage": "https://github.com/jamesrock/jamesrock.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/jamesrock/jamesrock.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrock/jamesrock.github.io.git"
+  },
+  "license": "ISC",
+  "author": "James Rock",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
